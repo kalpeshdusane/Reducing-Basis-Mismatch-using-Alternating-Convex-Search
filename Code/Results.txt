@@ -1,0 +1,125 @@
+Q = 1 and 1.5
+
+0.573188970218924	0.745343040330860	2.41847730518720	0.0302713240724280	0.132848094989664	1.03959829208392e-05	1.82624554659973e-05	6.93130599869578e-05	1.25945703198800	0.544971944232439
+
+Q = 1 and 1.5
+0.0155522372071214	0.0997048461925163	0.0168038204782110	0.638662111356787	0.991024648707448	6.58742940823728e-06	0.00277529017477034	0.477801475818533	0.000453382788818631	0.000276061529690856
+
+coef 
+0	0.108070357275171	1.14046021695159	0.604997002112561	2.67415262535583	1.50850551684570	2.14212936001026	1.72761816254120	0.154806922037706	2.17442544342191
+
+Processing Q : 1.5, S : 2
+normalized RMSE : 2.6296e-05 coefficient error : 0.0049588
+Execution Time : 2
+Processing Q : 1.5, S : 4
+normalized RMSE : 0.00026268 coefficient error : 0.59793
+Execution Time : 9
+Processing Q : 1.5, S : 6
+normalized RMSE : 0.071101 coefficient error : 0.89401
+Execution Time : 109
+Processing Q : 1.5, S : 8
+normalized RMSE : 0.16663 coefficient error : 1.2856
+Execution Time : 270
+Processing Q : 1.5, S : 10
+normalized RMSE : 1.1405 coefficient error : 3.0085
+Execution Time : 250
+Processing Q : 2, S : 2
+normalized RMSE : 1.8856e-05 coefficient error : 0.091347
+Execution Time : 3
+Processing Q : 2, S : 4
+normalized RMSE : 0.26817 coefficient error : 2.7168
+Execution Time : 3219
+Processing Q : 2, S : 6
+normalized RMSE : 1.4539e-05 coefficient error : 0.23066
+Execution Time : 3
+Processing Q : 2, S : 8
+normalized RMSE : 0.00040924 coefficient error : 0.85633
+Execution Time : 10
+Processing Q : 2, S : 10
+normalized RMSE : 6.2777e-05 coefficient error : 0.33086
+Execution Time : 6
+
+z :
+2.62963625136951e-05	0.000262682269070503	0.0711007439759728	0.166628767438270	1.14052526220296	1.88561784429493e-05	0.268170926239191	1.45388065197503e-05	0.000409238344169605	6.27768535884885e-05
+x :
+0.00495878268230543	0.597930418697668	0.894012289379296	1.28562132538306	3.00847087887630	0.0913469200775871	2.71678072987587	0.230662331618171	0.856334879668547	0.330859672038550
+
+
+
+
+
+######################
+
+Processing Q : 1, S : 2
+normalized RMSE : 0.043308 coefficient error : 1.4819
+Execution Time : 4
+Processing Q : 1, S : 4
+normalized RMSE : 0.010293 coefficient error : 7.3455
+Execution Time : 87
+Processing Q : 1, S : 6
+normalized RMSE : 0.28008 coefficient error : 1.1031
+Execution Time : 88
+Processing Q : 1, S : 8
+normalized RMSE : 1.1608 coefficient error : 0.4249
+Execution Time : 181
+Processing Q : 1, S : 10
+normalized RMSE : 0.076866 coefficient error : 0.10843
+Execution Time : 4
+Processing Q : 1.5, S : 2
+normalized RMSE : 2.185e-05 coefficient error : 0.025425
+Execution Time : 2
+Processing Q : 1.5, S : 4
+normalized RMSE : 1.5776 coefficient error : 0.88101
+Execution Time : 364
+Processing Q : 1.5, S : 6
+normalized RMSE : 0.25505 coefficient error : 1.4833
+Execution Time : 303
+Processing Q : 1.5, S : 8
+normalized RMSE : 0.12797 coefficient error : 0.72961
+Execution Time : 13
+Processing Q : 1.5, S : 10
+normalized RMSE : 1.3954e-05 coefficient error : 1.024
+Execution Time : 10
+Processing Q : 2, S : 2
+normalized RMSE : 1.2801e-05 coefficient error : 1.7326
+Execution Time : 5
+Processing Q : 2, S : 4
+normalized RMSE : 0.00013653 coefficient error : 2.154
+Execution Time : 115
+Processing Q : 2, S : 6
+normalized RMSE : 7.2942e-05 coefficient error : 1.2544
+Execution Time : 5
+Processing Q : 2, S : 8
+normalized RMSE : 0.00010217 coefficient error : 0.17204
+Execution Time : 4
+Processing Q : 2, S : 10
+normalized RMSE : 0.11393 coefficient error : 1.0749
+Execution Time : 383
+
+x : 
+1.48186228994097	7.34552467817943	1.10313848799159	0.424899752992064	0.108429221820316	0.0254245264088237	0.881010120470881	1.48329906605904	0.729613497537608	1.02402316363894	1.73260714520436	2.15399255270125	1.25436939642139	0.172039540893265	1.07490590467098
+
+z:
+0.0433082696062102	0.0102929039093931	0.280079704875200	1.16076137894299	0.0768656404143223	2.18504242357952e-05	1.57761805446369	0.255047531499370	0.127970449293418	1.39537111687903e-05	1.28009109644529e-05	0.000136530372760860	7.29422027044656e-05	0.000102165184025723	0.113926335196175
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
