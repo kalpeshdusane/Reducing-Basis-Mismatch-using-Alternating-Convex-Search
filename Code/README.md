@@ -12,5 +12,45 @@ Here we are trying to estimate both frequency bases matrix and coefficients.
 
 ![Algo Image](readmeImages/eq7.png)
 
+Here to solve ![l2-l1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20l_2-l_1) problem(*equation 5*), I have used well-known package L1_LS from https://stanford.edu/~boyd/l1_ls/
 
+Following is ReadMe for L1_LS Solver:
+```
+l1_ls: A Matlab solver for l1-regularized least squares problems.
 
+BETA version, May 10 2008
+
+COPYRIGHT (c) 2007  Kwangmoo Koh, Seung-Jean Kim and Stephen Boyd.
+
+Permission to use, copy, modify, and distribute this software for
+any purpose without fee is hereby granted, provided that this entire
+notice is included in all copies of any software which is or includes
+a copy or modification of this software and in all copies of the
+supporting documentation for such software.
+This software is being provided "as is", without any express or
+implied warranty.  In particular, the authors do not make any
+representation or warranty of any kind concerning the merchantability
+of this software or its fitness for any particular purpose.
+
+--------------------------------------------------------------------------------
+
+Please see the comments in the source code, for more information.
+
+--------------------------------------------------------------------------------
+Files of interest:
+
+SOLVERS
+    l1_ls.m : main solver
+    l1_ls_nonneg.m : main solver (with non-negativity constraints)
+
+EXAMPLES
+    simple_example.m : example for the basic usage
+    operator_example.m : example that illustrates the object 
+                         programming feature of Matlab
+
+UTILITY
+    find_lambdamax_l1_ls : utility file for finding maximum value of lambda
+    find_lambdamax_l1_ls_nonneg : finding maximum value of lambda of
+                              l1-regularized LSP with nonnegativity constraints
+
+```
