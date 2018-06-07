@@ -36,7 +36,7 @@ Therefore it remained the predominant question of ***how to reduce the Basis Mis
   - Treat both the model coefficients and the associated frequency as unknown which need to be solved. Isolates the unknown frequencies in separate, non-overlapping bins and then solves for their location and amplitude. 
   - Both frequency locations and amplitudes can be estimated by solving the constrained **Atomic Norm Minimization** by *semi-definite programming*. Also Atomic Norm Minimization constrain can be solved by [*greedy forward-backward (GFB) algorithm*](http://ieeexplore.ieee.org/document/6638793/).
   
-**Proposed Approaches- *Alternating Convex Search (ACS):*** Here, we solve the basis mismatch problem using *Alternating Convex Search (ACS)* which is trying to estimate both frequency bases matrix and coefficients. This is implemented as shown in this [paper](https://ieeexplore.ieee.org/abstract/document/6815988/)
+**Proposed Approaches- *Alternating Convex Search (ACS):*** This method is implemented as shown in this [paper](https://ieeexplore.ieee.org/abstract/document/6815988/). Here, we solve the basis mismatch problem using *Alternating Convex Search (ACS)* which is trying to estimate both frequency bases matrix and coefficients. 
 
 ![eq](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20%28%5Chat%7B%5Ctext%7Bx%7D%7D%2C%5Chat%7B%5Ctheta%7D%29%20%3D%20argmin_%7B%5Ctext%7Bx%7D%2C%5Ctheta%7D%20%5C%20f%28%5Ctext%7Bx%7D%2C%5Ctheta%29%20%3D%20%7C%7Cy%20-%20%5CPhi%20%5CPsi_%7B%5Ctheta%7D%20%5Ctext%7Bx%7D%7C%7C_%7B2%7D%5E2%20&plus;%20%5Clambda%20%7C%7C%5Ctext%7Bx%7D%7C%7C_1)
 
