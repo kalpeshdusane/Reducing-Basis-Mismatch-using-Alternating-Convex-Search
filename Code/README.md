@@ -12,9 +12,30 @@ Here we are trying to estimate both frequency bases matrix and coefficients.
 
 ![Algo Image](readmeImages/eq7.png)
 
+## Running Instruction
+
+### File Structure
+
+```
+    myScript.m - main file from where all the code is called; run this file to excute this project.
+    
+    generate_input.m - To generate the input signal
+    
+    basis.m - to generate basis from equation 3
+    
+    Run_ACS.m - a collection of generating input, call ACS and other tasks 
+    
+    ACS.m - Actual ACS Algorithm
+    
+    l1_ls.m - To solve the equation 5
+    
+    ISTA.m - instead of l1_ls solver we can use ISTA (Iterative Shrinkage-Thresholding Algorithms)
+```
+### Structure of L1_LS Solver
+
 Here to solve ![l2-l1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20l_2-l_1) problem(*equation 5*), I have used well-known package L1_LS from https://stanford.edu/~boyd/l1_ls/
 
-Following is ReadMe for L1_LS Solver:
+Following is ReadMe for L1_LS Solver :
 ```
 l1_ls: A Matlab solver for l1-regularized least squares problems.
 
