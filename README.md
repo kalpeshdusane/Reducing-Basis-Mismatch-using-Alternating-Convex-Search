@@ -31,13 +31,18 @@ Therefore it remained the predominant question of ***how to reduce the Basis Mis
 
 ## Solution Approaches
 
-- Previous Solutions:
+**Previous Solutions:**
   - Oversample the frequency space i.e. ![\Psi \in \R^{N\text{x}QN}](https://latex.codecogs.com/gif.latex?%5Cfn_cs%20%5Clarge%20%5CPsi%20%5Cin%20%5Ctext%7BR%7D%5E%7BN%5Ctext%7Bx%7DQN%7D) contain sinusoids with frequencies ![1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%201) / ![QN](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20QN) apart instead of ![1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%201) / ![N](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20N) apart.
   - Treat both the model coefficients and the associated frequency as unknown which need to be solved. Isolates the unknown frequencies in separate, non-overlapping bins and then solves for their location and amplitude. 
   - Both frequency locations and amplitudes can be estimated by solving the constrained **Atomic Norm Minimization** by *semi-definite programming*. Also Atomic Norm Minimization constrain can be solved by *greedy forward-backward (GFB) algorithm*.
   
-- Proposed Solution **Alternating Convex Search (ACS):** Here, we solve the basis mismatch problem using *Alternating Convex Search (ACS)* which is trying to estimate both frequency bases matrix and coefficients. 
+**Proposed Solution- *Alternating Convex Search (ACS):*** Here, we solve the basis mismatch problem using *Alternating Convex Search (ACS)* which is trying to estimate both frequency bases matrix and coefficients.
+
 ![eq](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20%28%5Chat%7B%5Ctext%7Bx%7D%7D%2C%5Chat%7B%5Ctheta%7D%29%20%3D%20argmin_%7B%5Ctext%7Bx%7D%2C%5Ctheta%7D%20%5C%20f%28%5Ctext%7Bx%7D%2C%5Ctheta%29%20%3D%20%7C%7Cy%20-%20%5CPhi%20%5CPsi_%7B%5Ctheta%7D%20%5Ctext%7Bx%7D%7C%7C_%7B2%7D%5E2%20&plus;%20%5Clambda%20%7C%7C%5Ctext%7Bx%7D%7C%7C_1)
+
+This method uses standard  ![l_1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20l_1%20-%20%5Ctext%7Bminimization%20problem%7D) to find out the signal model coefficients i.e. ![x](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20x) by keeping frequency parameter ![\theta](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20%5Ctheta) fixed. 
+Then using this coefficients find out the signal model using **component-wise minimization** like ***coordinate descent*** on the *frequency parameter*. 
+These steps are repeated this until convergence criteria is met.
   
 
 ## References
