@@ -1,6 +1,6 @@
 # Inferring Basis Mismatch in image representations
 
-Here to reduce problem of Basis mismatch we use Alternating Convex Search. 
+>Objective is to reduce problem of *Basis mismatch* using **Alternating Convex Search**. 
 
 [![Build Status][travis-image]][travis-url]
 
