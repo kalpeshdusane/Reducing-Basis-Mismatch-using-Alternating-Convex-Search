@@ -2,6 +2,8 @@
 
 Here to reduce problem of Basis mismatch we use Alternating Convex Search. 
 
+[![Build Status][travis-image]][travis-url]
+
 ## Research Problem
 
 In theory of compressive sensing, 
@@ -48,3 +50,8 @@ These steps are repeated this until convergence criteria is met.
 ## References
 - [Compressed sensing](http://ieeexplore.ieee.org/document/1614066/) by D. L. Donoho
 - [Reducing Basis Mismatch in Harmonic Signal Recovery via Alternating Convex Search](https://ieeexplore.ieee.org/abstract/document/6815988/) by Jonathan M. Nichols, Albert K. Oh, and Rebecca M. Willett
+
+
+<!-- Markdown link & img dfn's -->
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
