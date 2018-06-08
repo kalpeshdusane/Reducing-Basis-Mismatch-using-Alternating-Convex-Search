@@ -16,21 +16,20 @@ Here we are trying to estimate both frequency bases matrix and coefficients.
 
 ### File Structure
 
-```
-    myScript.m - main file from where all the code is called; run this file to excute this project.
+- [`myScript.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/myScript.m) - main file from where all the code is called; run this file to excute this project.
     
-    generate_input.m - To generate the input signal
+- [`generate_input.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/generate_input.m) - To generate the input signal
     
-    basis.m - to generate basis from equation 3
+- [`basis.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/basis.m) - to generate basis from equation 3
     
-    Run_ACS.m - a collection of generating input, call ACS and other tasks 
+- [`Run_ACS.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/Run_ACS.m) - a collection of generating input, call ACS and other tasks 
     
-    ACS.m - Actual ACS Algorithm
+- [`ACS.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/ACS.m) - Actual ACS Algorithm
     
-    l1_ls.m - To solve the equation 5
+- [`l1_ls.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/l1_ls.m) - To solve the equation 5
     
-    ISTA.m - instead of l1_ls solver we can use ISTA (Iterative Shrinkage-Thresholding Algorithms)
-```
+- [`ISTA.m`](https://github.com/kalpeshdusane/Reducing-Basis-Mismatch-using-Alternating-Convex-Search/blob/master/Code/ISTA.m) - instead of l1_ls solver we can use ISTA (Iterative Shrinkage-Thresholding Algorithms)
+    
 ### Structure of L1_LS Solver
 
 Here to solve ![l2-l1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20l_2-l_1) problem(*equation 5*), I have used well-known package L1_LS from https://stanford.edu/~boyd/l1_ls/
