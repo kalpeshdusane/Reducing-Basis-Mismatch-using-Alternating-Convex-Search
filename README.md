@@ -45,7 +45,12 @@ Therefore it remained the predominant question of ***how to reduce the Basis Mis
 This method uses standard  ![l_1](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Cfn_cs%20l_1%20-%20%5Ctext%7Bminimization%20problem%7D) to find out the signal model coefficients i.e. ![x](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20x) by keeping frequency parameter ![\theta](https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cfn_cs%20%5Clarge%20%5Ctheta) fixed. 
 Then using this coefficients find out the signal model using **component-wise minimization** like ***coordinate descent*** on the *frequency parameter*. 
 These steps are repeated this until convergence criteria is met.
-  
+
+## Dependencies
+
+```
+MATLAB
+```
 
 ## References
 - [Compressed sensing](http://ieeexplore.ieee.org/document/1614066/) by D. L. Donoho
